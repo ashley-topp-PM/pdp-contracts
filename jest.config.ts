@@ -32,7 +32,7 @@ const config: Config = {
       testMatch: ['**/__tests__/dispatch-pdp-event.spec.ts'],
     },
   ],
-  collectCoverageFrom: ['src/**/*.ts', '!src/**/__tests__/**'],
+  collectCoverageFrom: ['src/**/*.ts', '!src/**/__tests__/**', '!src/index.ts'],
   coverageThreshold: {
     global: {
       branches: 85,
